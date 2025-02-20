@@ -1,0 +1,129 @@
+/* Contenedor principal */
+.product-display-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Estilo del contenedor del producto */
+.product-display {
+  background-color: #a19595;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+  position: relative;
+}
+
+/* Botón de cerrar */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #b64646;
+}
+
+/* Sección de la imagen */
+.image-section img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Sección de detalles */
+.details-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Título del producto */
+.details-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Sección de calificaciones */
+.ratings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Precio del producto */
+.price {
+  font-size: 20px;
+  color: #94c7a3;
+  margin-bottom: 20px;
+}
+
+/* Controles de cantidad */
+.quantity-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.quantity-controls button {
+  background-color: #ddd;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.quantity-controls span {
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+/* Botón de añadir al carrito */
+.add-to-cart {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.add-to-cart:hover {
+  background-color: #ff4500;
+}
+
+/* Sección de pestañas */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+.tab.active {
+  border-bottom: 2px solid #ff6347;
+}
+
+/* Contenido de las pestañas */
+.tab-content {
+  text-align: left;
+  font-size: 16px;
+}

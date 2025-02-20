@@ -1,0 +1,12 @@
+.container {
+  background-color:#2c2b2b;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Espacio entre elementos */
+  align-items: center;
+  width: 100%;
+}
+  .header, .hero, .featured-treats, .PromoSection {
+    width: 100%;
+  }
+  
